@@ -1,0 +1,27 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  21648 12924 ?        Ss   Mar13   0:30 /sbin/init
+root           2  0.0  0.0   2776  1920 ?        Sl   Mar13   0:00 /init
+root           6  0.0  0.0   2776   132 ?        Sl   Mar13   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          54  0.0  0.6  75012 25520 ?        S<s  Mar13   0:38 /usr/lib/systemd/systemd-journald
+root          94  0.0  0.1  24256  6348 ?        Ss   Mar13   0:28 /usr/lib/systemd/systemd-udevd
+systemd+     119  0.0  0.3  21452 11824 ?        Ss   Mar13   0:08 /usr/lib/systemd/systemd-resolved
+systemd+     120  0.0  0.1  91020  6552 ?        Ssl  Mar13   0:12 /usr/lib/systemd/systemd-timesyncd
+root         161  0.0  0.0   4236  2652 ?        Ss   Mar13   0:03 /usr/sbin/cron -f -P
+message+     162  0.0  0.1   9532  5128 ?        Ss   Mar13   0:09 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         175  0.0  0.2  17976  8236 ?        Ss   Mar13   0:07 /usr/lib/systemd/systemd-logind
+root         181  0.0  0.5 1978444 20660 ?       Ssl  Mar13   1:11 /usr/libexec/wsl-pro-service -vv
+root         188  0.0  0.0   3160  1112 hvc0     Ss+  Mar13   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       194  0.0  0.1 222508  5592 ?        Ssl  Mar13   0:09 /usr/sbin/rsyslogd -n -iNONE
+root         204  0.0  0.0   3116  1156 tty1     Ss+  Mar13   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         217  0.0  0.5 107052 22508 ?        Ssl  Mar13   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         308  0.0  0.0   2780   204 ?        Ss   Mar13   0:00 /init
+root         309  0.0  0.0   2780   208 ?        S    Mar13   0:00 /init
+rafael       310  0.0  0.1   7352  6544 pts/0    Ss+  Mar13   0:06 -bash
+root         311  0.0  0.1   6824  4564 pts/1    Ss   Mar13   0:00 /bin/login -f
+rafael       400  0.0  0.2  20256 11392 ?        Ss   Mar13   0:01 /usr/lib/systemd/systemd --user
+rafael       401  0.0  0.0  21144  1724 ?        S    Mar13   0:00 (sd-pam)
+rafael       414  0.0  0.1   6072  5236 pts/1    S+   Mar13   0:00 -bash
+root        2696  0.0  0.0   2780   208 ?        Ss   01:03   0:00 /init
+root        2697  0.0  0.0   2780   212 ?        S    01:03   0:00 /init
+rafael      2698  0.0  0.1   6200  5388 pts/2    Ss   01:03   0:00 -bash
+rafael      2775  157  0.1   8280  4168 pts/2    R+   01:16   0:00 ps aux
