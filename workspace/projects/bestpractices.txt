@@ -1,0 +1,10 @@
+
+
+# If you want to add a new features/script/code
+# git checkout -b features/Rakan/bashScript
+
+# If you need to push a new urgent fix (usually used for production/live systems)
+# git checkout -b hotfix/Rakan/fixingProductionIssue
+
+# If you need to push a new fix for a bug
+# git checkout -b bug/Rakan/fixingTerraformBug
